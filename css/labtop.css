@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+
+section > .container{
+    /* width: 1170px; */
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+}
+
+#nav-bar {
+    text-align: center;
+}
+/* ==============================banner===================================== */
+#banner {
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34,34 ,34 ,0.6)), url(../images/banner.jpg);
+    background-size: 100%;
+    background-position: center;
+ position: relative;
+ height:50vh;
+ color:#f7f7f7;
+}
+#banner h1{font-size: 150%;
+    line-height: 1.5;
+}
+#banner span{
+    font-size: 100%;
+}
+.banner{ text-align: center;
+position:absolute;
+top:30%;
+left:50%;
+transform: translate(-50% ,-50%);}
+
+/* =============================navbar===================== */
+ i {
+    color:#199cdb;
+}
+ a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+nav.container {display:flex;
+    justify-content: center;
+    padding:0px;
+}
+.picture {
+    flex-basis: 300px;
+}
+#nav-bar div{
+    border:1px solid rgb(238, 234, 234);
+}
+.contain-nav {
+    padding:20px;
+}
+.contain-nav h1{font-size: 13px;}
+.contain-nav p{font-size: 10px;
+color:grey;}
+
+/* ================================mục tiêu nghề nghiệp============================================ */
+.container{
+    margin:0 auto !important;
+}
+#about .row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width :100%;
+    font-size: 13px;
+    line-height: 1.8;
+}
+#target{
+        padding: 20px ;
+justify-content: center;
+background-color:#eceaea;
+margin-top: 20px;}
+
+#personal-info {
+    padding: 20px;
+background-color:hsl(0, 0%, 88%);
+margin-top: 20px;
+}
+
+#personal-info ul{ padding-left: 0;}
+
+.mt-40 {
+    margin-top: 40px;
+    color: grey;
+}
+.mt-40 li{
+    list-style: none;
+}
+.mt-40 span{
+    color: black;
+}
+.target-icon {display:flex;
+    margin-top:20px;
+    
+
+}
+/* ====================================thong tin nghe nghiep============================== */
+#job-info .container{
+    padding:40px;
+}
+#job-info .row{
+flex-direction: column;
+height: 800px;
+gap: 20px;
+}
+
+.ttnn i{
+    font-size: 30px;  
+    height:30px;
+    text-align: center;
+    color:grey;
+}
+.ttnn {display: grid;
+    grid-template-columns: 75% 25%;
+    border:1px solid grey;
+    padding:20px;}
+
+.ttnn h1{
+    font-size:25px;
+    height:30px;}
+
+.ttnn p { color: grey;}
+.ttnn-1{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-top: 40px;
+    font-size: 13px;
+    line-height: 1.8;
+    text-align: start;
+}
+.ttnn ul{
+    padding-left: 20px;
+}
+.ttnn li { color: #199cdb;
+    font-size: 15px;
+    padding: 0;;
+}
+.ttnn h2{
+    font-size: 15px;
+    color: black;
+}
+
+.exp-b{margin-top: 20px;}
+.exp-a span{
+    background-color: #199cdb;;
+    border-radius: 15%;
+    color:#f7f7f7;
+    padding:5px;
+}
+/* =================hoc van===================== */
+.hocvan-b, .hocvan-c{margin-top: 20px;}
+/* ==========hoat dong================= */
+.act-b,.act-c {margin-top: 20px;}
+/* =============so thich======================== */
+.hobby span{font-size: 13px;
+color: gray;
+}
+.hobby{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    text-align: center;
+    justify-items: center;
+}
+.hb {
+    width: 40px !important;
+    height:40px;
+    border-radius: 50%;
+    border: 1px solid green;
+    text-align: center;
+}
+.hb span {
+    line-height: 40px;
+}
+/* ================ngon ngu ky nang=============== */
+.ttnn-1 div{margin-bottom:10px;
+
+}
+.lang-1 {
+   
+    background-color: #199cdb;
+    width: 45px !important;
+    height:2px;
+    border-radius: 15%;
+    margin-right: 10px;
+}
+.lang-2{ background-color: grey ;
+    width: 45px !important;
+    height:2px;
+    border-radius: 15%;
+    margin-right: 10px;
+}
+.lang {
+    display:grid;
+    grid-template-columns:20% 20% 20%;
+    gap:10px;
+}
+
+/* ======================chung chi giai thuong================================ */
+#certificate {padding-left: 70px;}
+.chungchi{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.chungchi h2{ font-size: 11px;
+text-transform:uppercase;
+line-height: 1.8;}
+
+.chungchi p{ font-size: 10px;
+line-height: 1.8;
+color: gray;}
+
+.chungchi-1, .chungchi-2, .chungchi-3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 40px 20px 40px 0px;
+}
+.border {
+    border: none !important;
+    border-right: 1px solid orange!important;
+}
+.chungchi-1, .chungchi-2{
+    border-bottom: 1px solid orange;
+}
+#certificate img{width:200px;
+    height:100px;
+
+}
+/* =============================dự án=========================================================== */
+
+.du-an{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+#project { padding-left:70px;}
+.da{
+    border:1px solid rgb(238, 234, 234);
+}
+.da a{
+    font-size: 13px;
+    text-transform: uppercase;
+padding:20px;
+}
+.da1{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    padding:20px;
+border-bottom:1px solid rgb(238, 234, 234);
+border-top:1px solid rgb(238, 234, 234) ;
+}
+.da1 p{
+    color:#f7f7f7;
+    background-color:#199cdb;
+    font-size:12px ;
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.icon{
+    color:grey;
+    display:grid;
+    grid-template-columns: 25% 75%;
+    font-size: 100%;
+}
+table{
+    font-size: 13px;
+    justify-content: center;
+    color:grey;
+    line-height: 1.5;
+}
+td {border-bottom:1px solid rgb(238, 234, 234);
+    border-collapse:collapse;
+    padding: 5px;
+}
+.tdnone{ border-bottom:none;}
+
+/* ==========================================liên hệ============================================= */
+
+.fter{
+    display:flex;
+    justify-content: center;
+
+}
+.fter li{
+    list-style: none;
+    margin:20px;
+}
+.fter a{
+    color: grey;
+    font-size: 13px;
+}
+.fter i{
+    font-size: 18px;
+}
+/* ==============================nâng cao======================================= */
+.container-nav{height:70px;}
+.picture {
+    position:relative;  
+}
+.picture img{ 
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50% ,-50%);
+    border:10px solid white;
+    border-radius: 50%;
+}
+#personal-info, #target {margin-top: 80px !important;}

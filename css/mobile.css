@@ -1,0 +1,110 @@
+@media (max-width:767px){
+    /* =========================banner====================== */
+    #banner {
+        background-repeat: no-repeat;
+        height:30vh;
+    }
+    /* ===============navbar============================ */
+    .picture{
+        display: none;
+    }
+    nav.container{
+        display: block;
+        margin:0;
+    }
+    .contain-nav{
+        text-align: start;
+        padding-top:2%;
+        padding-left:5%;
+    }
+    #nav-bar div{
+        border:none;
+    }
+    /* =======================muc tieu============================= */
+    #about .row{
+        display:block;
+    }
+    #about.container {
+    margin:0;
+    padding-top: 0px;
+}
+#target,#personal-info {
+    margin-top: 0 !important;
+    padding-top:80px;
+}
+
+/* ===========================kinh nghiem======================================== */
+
+#job-info .row{
+    height:auto;
+}
+
+/* =====================chungchi giai thuong==================================== */
+#certificate {
+    padding:0px;
+}
+.chungchi{
+    display:block;
+}
+.chungchi-1, .chungchi-2, .chungchi-3{
+    display: block;
+    border-bottom: 1px solid orange;;
+}
+
+.border{
+    border-right: none!important;
+}
+.chungchi h2{ font-size: 13px;
+}
+.chungchi p{ font-size: 13px;
+}
+#certificate img{
+    width:100%;
+    height:auto;
+}
+/* =============================du an============================ */
+#project{
+    padding: 0px;
+}
+.du-an{
+    display:inline-block;
+    width:100%;
+}
+.da1{
+    display:block;
+    padding:20px;
+border-bottom:1px solid rgb(238, 234, 234);
+}
+.icon{
+    
+    grid-template-columns: 20% 80%;
+    font-size: 120%;
+}
+/* ===============================footer=============================== */
+.fter a{
+    font-size: 08px;
+}
+.fter i{
+    font-size: 10px;}
+/* ==================nang cao======================================== */
+.container-digi,.goal-1,.goal-2,.goal-3 {
+    display: block!important;
+}
+/* =======================goals========================= */
+
+.icon1 {
+    line-height: 0px!important;
+ }
+ /* ====================Scopes teams primary timeless ==================================== */
+.scopes,.teamer-1,.primer-1,.timer-1{
+    display: block !important;
+}
+.scopes-1 h2{
+    font-size: 18px!important;
+}
+
+.timer-number {
+    width: 10%!important;
+    height:10%!important;
+}
+}
